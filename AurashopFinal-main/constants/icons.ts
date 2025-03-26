@@ -14,6 +14,12 @@ import play from "../assets/icons/play.png"
 import setting from "../assets/icons/setting.png"
 import flagth from "../assets/icons/thailand.png"
 import flagen from "../assets/icons/united-kingdom.png"
+import house from "../assets/icons/house.png"
+import rr from "../assets/icons/rr.png"
+import bb from "../assets/icons/bb.png"
+import ff from "../assets/icons/ff.png"
+import uu from "../assets/icons/uu.png"
+import ss from "../assets/icons/ss.png"
 
 export default {
   bookmark,
@@ -32,4 +38,10 @@ export default {
   setting,
   flagth,
   flagen,
+  house,
+  rr,
+  bb,
+  ff,
+  uu,
+  ss
 }

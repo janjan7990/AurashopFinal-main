@@ -119,9 +119,9 @@ export default function register() {
           >
             <View className="flex items-center">
               <Image
-                source={images.logo}
+                source={images.ww}
                 resizeMode="contain"
-                className="h-[34px]"
+                className="h-[100px]"
               />
             </View>
 

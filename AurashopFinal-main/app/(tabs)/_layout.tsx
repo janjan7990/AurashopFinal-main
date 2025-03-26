@@ -49,9 +49,9 @@ export default function TabLayout() {
   const { theme } = useTheme()
 
   // Define colors based on theme
-  const tabBarBackgroundColor = theme === 'dark' ? '#161622' : '#ffffff'
+  const tabBarBackgroundColor = theme === 'dark' ? '#000' : '#000'
   const tabBarBorderColor = theme === 'dark' ? '#232533' : '#e0e0e0'
-  const tabBarActiveTintColor = theme === 'dark' ? '#FFA001' : '#FFA001'
+  const tabBarActiveTintColor = theme === 'dark' ? '#FF3B30' : '#FF3B30'
   const tabBarInactiveTintColor = theme === 'dark' ? '#CDCDE0' : '#8e8e93'
 
   return (
@@ -89,7 +89,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.home}
+              icon={icons.rr}
               color={color}
               focused={focused}
             />
@@ -104,7 +104,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.bookmark}
+              icon={icons.bb}
               color={color}
               focused={focused}
             />
@@ -119,7 +119,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.plus}
+              icon={icons.ff}
               color={color}
               focused={focused}
               size="large"  // กำหนดให้เป็นขนาดใหญ่
@@ -136,7 +136,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.profile}
+              icon={icons.uu}
               color={color}
               focused={focused}
             />
@@ -151,7 +151,7 @@ export default function TabLayout() {
           headerShown: false,
           tabBarIcon: ({ color, focused }) => (
             <TabIcon
-              icon={icons.setting}
+              icon={icons.ss}
               color={color}
               focused={focused}
             />

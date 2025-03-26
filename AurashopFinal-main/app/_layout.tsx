@@ -28,7 +28,7 @@ function RootLayoutNav() {
   }, [theme]);
 
   return(
-    <SafeAreaView className={`h-screen ${theme === 'dark' ? 'bg-primary' : 'bg-white'}`}>
+    <SafeAreaView className={`h-screen ${theme === 'dark' ? 'bg-black' : 'bg-black'}`}>
       <StatusBar 
         barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
         backgroundColor={theme === 'dark' ? '#161622' : 'white'}
